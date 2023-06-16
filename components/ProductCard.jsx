@@ -21,7 +21,7 @@ const ProductCard = ({ data: { attributes: p, id } }) => {
                 <h2 className='text-lg font-medium'>{p.name}</h2>
                 <div className='flex items-center text-black/[0.5]'>
                     <p className='mr-2 text-lg font-semibold'>
-                        USD: &#36; {p.price}
+                        MXN: &#36; {p.price}
                     </p>
 
                     {p.original_price && (

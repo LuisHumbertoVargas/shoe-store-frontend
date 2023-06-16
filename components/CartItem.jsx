@@ -55,7 +55,7 @@ const CartItem = ({ data }) => {
 
                     {/* Product Price start*/}
                     <div className='text-base md:text-md font-bold text-black/[0.5] mt-2'>
-                        USD: &#36; {p.price}
+                        MXN: &#36; {p.price}
                     </div>
                     {/* Product Price end*/}
                 </div>
