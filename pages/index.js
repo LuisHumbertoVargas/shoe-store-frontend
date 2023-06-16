@@ -12,12 +12,13 @@ export default function Home({ products }) {
                 {/* Heading and Paragraph start */}
                 <div className='text-center max-w-[800px] mx-auto my-[50px] md:my-[80px]'>
                     <div className='text-[28px] md:text-[34px] mb-5 font-semibold leading-tight'>
-                        Cushioning for you Miles
+                        Find Your Best Style
                     </div>
                     <div className='text-md md:text-xl'>
-                        A lightweight Nike ZoomX midsole is combined with
-                        incrased stack heights to help provide cushioning during
-                        extended stretches of running
+                        Immerse yourself in a world of fashion and style with
+                        our wide selection of garments and accessories. Find
+                        your best style and create unique looks that reflect
+                        your personality and essence.
                     </div>
                 </div>
                 {/* Heading and Paragraph end */}
