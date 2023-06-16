@@ -26,6 +26,7 @@ const ProductCard = ({ data: { attributes: p, id } }) => {
 
                     {p.original_price && (
                         <>
+                            <br />
                             <p className='text-base font-semibold line-through text-red-500'>
                                 &#36; {p.original_price}
                             </p>
