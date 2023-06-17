@@ -27,10 +27,10 @@ const ProductCard = ({ data: { attributes: p, id } }) => {
                     {p.original_price && (
                         <>
                             <br />
-                            <p className='text-base font-semibold line-through text-red-500'>
+                            <p className='text-base font-semibold line-through text-red-700'>
                                 &#36; {p.original_price}
                             </p>
-                            <p className='ml-auto text-base font-medium text-green-500'>
+                            <p className='ml-auto text-base font-medium text-green-700'>
                                 {getDiscountedPricePercentage(
                                     p.original_price,
                                     p.price
